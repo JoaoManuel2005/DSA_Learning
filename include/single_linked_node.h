@@ -4,10 +4,10 @@
 class node {
     public:
         node(int value, node* next_pointer=nullptr);
-        int getValue();
-        node* getNext();
-        void setNext(node* next_pointer);
-    private:
+        virtual int getValue() const;
+        virtual node* getNext() const;
+        virtual void setNext(node* next);
+    protected:
         int value;
         node* next_pointer;
 };

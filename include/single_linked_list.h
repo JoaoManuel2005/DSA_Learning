@@ -11,6 +11,7 @@ class singly_linked_list {
         void head_push(int value);
         void remove(int value);
         void insert(int value, int position);
+        void print_list();
     private:
         node* header;
         node* tail;

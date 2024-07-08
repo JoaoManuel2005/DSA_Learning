@@ -1,0 +1,3 @@
+/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles/DSA_learning.dir
+/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles/edit_cache.dir
+/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles/rebuild_cache.dir

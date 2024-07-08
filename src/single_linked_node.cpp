@@ -6,15 +6,14 @@ node::node(int value, node* next_pointer) {
     this->next_pointer = next_pointer;
 }
  
-
-int node::getValue() {
-    return this->value;
+int node::getValue() const {
+    return value;
 }
 
-node* node::getNext() {
-    return this->next_pointer;
+node* node::getNext() const {
+    return next_pointer;
 }
 
-void node::setNext(node* next_pointer) {
-    this->next_pointer = next_pointer;
+void node::setNext(node* next) {
+    next_pointer = next;
 }
