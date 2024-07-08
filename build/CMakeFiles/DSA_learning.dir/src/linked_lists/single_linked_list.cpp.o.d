@@ -1,5 +1,5 @@
-CMakeFiles/DSA_learning.dir/src/main.cpp.o: \
-  /Users/JoaoManuel/Documents/DSA_learning/src/main.cpp \
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o: \
+  /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp \
   /Users/JoaoManuel/Documents/DSA_learning/include/linked_lists/single_linked_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
@@ -734,11 +734,6 @@ CMakeFiles/DSA_learning.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Users/JoaoManuel/Documents/DSA_learning/include/linked_lists/single_linked_node.h \
-  /Users/JoaoManuel/Documents/DSA_learning/include/linked_lists/double_linked_list.h \
-  /Users/JoaoManuel/Documents/DSA_learning/include/linked_lists/double_linked_node.h \
-  /Users/JoaoManuel/Documents/DSA_learning/include/sorting_algorithms.h \
-  /Users/JoaoManuel/Documents/DSA_learning/include/queue.h \
-  /Users/JoaoManuel/Documents/DSA_learning/include/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ios/fpos.h \

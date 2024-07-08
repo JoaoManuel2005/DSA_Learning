@@ -129,6 +129,102 @@ DSA_learning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/build
 .PHONY : DSA_learning/fast
 
+src/linked_lists/double_linked_list.o: src/linked_lists/double_linked_list.cpp.o
+.PHONY : src/linked_lists/double_linked_list.o
+
+# target to build an object file
+src/linked_lists/double_linked_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o
+.PHONY : src/linked_lists/double_linked_list.cpp.o
+
+src/linked_lists/double_linked_list.i: src/linked_lists/double_linked_list.cpp.i
+.PHONY : src/linked_lists/double_linked_list.i
+
+# target to preprocess a source file
+src/linked_lists/double_linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.i
+.PHONY : src/linked_lists/double_linked_list.cpp.i
+
+src/linked_lists/double_linked_list.s: src/linked_lists/double_linked_list.cpp.s
+.PHONY : src/linked_lists/double_linked_list.s
+
+# target to generate assembly for a file
+src/linked_lists/double_linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.s
+.PHONY : src/linked_lists/double_linked_list.cpp.s
+
+src/linked_lists/double_linked_node.o: src/linked_lists/double_linked_node.cpp.o
+.PHONY : src/linked_lists/double_linked_node.o
+
+# target to build an object file
+src/linked_lists/double_linked_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o
+.PHONY : src/linked_lists/double_linked_node.cpp.o
+
+src/linked_lists/double_linked_node.i: src/linked_lists/double_linked_node.cpp.i
+.PHONY : src/linked_lists/double_linked_node.i
+
+# target to preprocess a source file
+src/linked_lists/double_linked_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.i
+.PHONY : src/linked_lists/double_linked_node.cpp.i
+
+src/linked_lists/double_linked_node.s: src/linked_lists/double_linked_node.cpp.s
+.PHONY : src/linked_lists/double_linked_node.s
+
+# target to generate assembly for a file
+src/linked_lists/double_linked_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.s
+.PHONY : src/linked_lists/double_linked_node.cpp.s
+
+src/linked_lists/single_linked_list.o: src/linked_lists/single_linked_list.cpp.o
+.PHONY : src/linked_lists/single_linked_list.o
+
+# target to build an object file
+src/linked_lists/single_linked_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o
+.PHONY : src/linked_lists/single_linked_list.cpp.o
+
+src/linked_lists/single_linked_list.i: src/linked_lists/single_linked_list.cpp.i
+.PHONY : src/linked_lists/single_linked_list.i
+
+# target to preprocess a source file
+src/linked_lists/single_linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.i
+.PHONY : src/linked_lists/single_linked_list.cpp.i
+
+src/linked_lists/single_linked_list.s: src/linked_lists/single_linked_list.cpp.s
+.PHONY : src/linked_lists/single_linked_list.s
+
+# target to generate assembly for a file
+src/linked_lists/single_linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.s
+.PHONY : src/linked_lists/single_linked_list.cpp.s
+
+src/linked_lists/single_linked_node.o: src/linked_lists/single_linked_node.cpp.o
+.PHONY : src/linked_lists/single_linked_node.o
+
+# target to build an object file
+src/linked_lists/single_linked_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o
+.PHONY : src/linked_lists/single_linked_node.cpp.o
+
+src/linked_lists/single_linked_node.i: src/linked_lists/single_linked_node.cpp.i
+.PHONY : src/linked_lists/single_linked_node.i
+
+# target to preprocess a source file
+src/linked_lists/single_linked_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.i
+.PHONY : src/linked_lists/single_linked_node.cpp.i
+
+src/linked_lists/single_linked_node.s: src/linked_lists/single_linked_node.cpp.s
+.PHONY : src/linked_lists/single_linked_node.s
+
+# target to generate assembly for a file
+src/linked_lists/single_linked_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.s
+.PHONY : src/linked_lists/single_linked_node.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,53 +249,53 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/single_linked_list.o: src/single_linked_list.cpp.o
-.PHONY : src/single_linked_list.o
+src/queue.o: src/queue.cpp.o
+.PHONY : src/queue.o
 
 # target to build an object file
-src/single_linked_list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o
-.PHONY : src/single_linked_list.cpp.o
+src/queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/queue.cpp.o
+.PHONY : src/queue.cpp.o
 
-src/single_linked_list.i: src/single_linked_list.cpp.i
-.PHONY : src/single_linked_list.i
+src/queue.i: src/queue.cpp.i
+.PHONY : src/queue.i
 
 # target to preprocess a source file
-src/single_linked_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.i
-.PHONY : src/single_linked_list.cpp.i
+src/queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/queue.cpp.i
+.PHONY : src/queue.cpp.i
 
-src/single_linked_list.s: src/single_linked_list.cpp.s
-.PHONY : src/single_linked_list.s
+src/queue.s: src/queue.cpp.s
+.PHONY : src/queue.s
 
 # target to generate assembly for a file
-src/single_linked_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.s
-.PHONY : src/single_linked_list.cpp.s
+src/queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/queue.cpp.s
+.PHONY : src/queue.cpp.s
 
-src/single_linked_node.o: src/single_linked_node.cpp.o
-.PHONY : src/single_linked_node.o
+src/sorting_algorithms.o: src/sorting_algorithms.cpp.o
+.PHONY : src/sorting_algorithms.o
 
 # target to build an object file
-src/single_linked_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o
-.PHONY : src/single_linked_node.cpp.o
+src/sorting_algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o
+.PHONY : src/sorting_algorithms.cpp.o
 
-src/single_linked_node.i: src/single_linked_node.cpp.i
-.PHONY : src/single_linked_node.i
+src/sorting_algorithms.i: src/sorting_algorithms.cpp.i
+.PHONY : src/sorting_algorithms.i
 
 # target to preprocess a source file
-src/single_linked_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.i
-.PHONY : src/single_linked_node.cpp.i
+src/sorting_algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.i
+.PHONY : src/sorting_algorithms.cpp.i
 
-src/single_linked_node.s: src/single_linked_node.cpp.s
-.PHONY : src/single_linked_node.s
+src/sorting_algorithms.s: src/sorting_algorithms.cpp.s
+.PHONY : src/sorting_algorithms.s
 
 # target to generate assembly for a file
-src/single_linked_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.s
-.PHONY : src/single_linked_node.cpp.s
+src/sorting_algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.s
+.PHONY : src/sorting_algorithms.cpp.s
 
 # Help Target
 help:
@@ -210,15 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSA_learning"
+	@echo "... src/linked_lists/double_linked_list.o"
+	@echo "... src/linked_lists/double_linked_list.i"
+	@echo "... src/linked_lists/double_linked_list.s"
+	@echo "... src/linked_lists/double_linked_node.o"
+	@echo "... src/linked_lists/double_linked_node.i"
+	@echo "... src/linked_lists/double_linked_node.s"
+	@echo "... src/linked_lists/single_linked_list.o"
+	@echo "... src/linked_lists/single_linked_list.i"
+	@echo "... src/linked_lists/single_linked_list.s"
+	@echo "... src/linked_lists/single_linked_node.o"
+	@echo "... src/linked_lists/single_linked_node.i"
+	@echo "... src/linked_lists/single_linked_node.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/single_linked_list.o"
-	@echo "... src/single_linked_list.i"
-	@echo "... src/single_linked_list.s"
-	@echo "... src/single_linked_node.o"
-	@echo "... src/single_linked_node.i"
-	@echo "... src/single_linked_node.s"
+	@echo "... src/queue.o"
+	@echo "... src/queue.i"
+	@echo "... src/queue.s"
+	@echo "... src/sorting_algorithms.o"
+	@echo "... src/sorting_algorithms.i"
+	@echo "... src/sorting_algorithms.s"
 .PHONY : help
 
 

@@ -83,49 +83,113 @@ CMakeFiles/DSA_learning.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/main.cpp -o CMakeFiles/DSA_learning.dir/src/main.cpp.s
 
-CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
-CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_list.cpp
-CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o -MF CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_list.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o -MF CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp
 
-CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_list.cpp > CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.i
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp > CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.i
 
-CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_list.cpp -o CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.s
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp -o CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.s
 
-CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
-CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_node.cpp
-CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o -MF CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_node.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_node.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o -MF CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_node.cpp
 
-CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_node.cpp > CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.i
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_node.cpp > CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.i
 
-CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/single_linked_node.cpp -o CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.s
+CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_node.cpp -o CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.s
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_list.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o -MF CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_list.cpp
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_list.cpp > CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.i
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_list.cpp -o CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.s
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_node.cpp
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o -MF CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_node.cpp
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_node.cpp > CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.i
+
+CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_node.cpp -o CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.s
+
+CMakeFiles/DSA_learning.dir/src/queue.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/queue.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/queue.cpp
+CMakeFiles/DSA_learning.dir/src/queue.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DSA_learning.dir/src/queue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/queue.cpp.o -MF CMakeFiles/DSA_learning.dir/src/queue.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/queue.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/queue.cpp
+
+CMakeFiles/DSA_learning.dir/src/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/queue.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/queue.cpp > CMakeFiles/DSA_learning.dir/src/queue.cpp.i
+
+CMakeFiles/DSA_learning.dir/src/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/queue.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/queue.cpp -o CMakeFiles/DSA_learning.dir/src/queue.cpp.s
+
+CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o: CMakeFiles/DSA_learning.dir/flags.make
+CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o: /Users/JoaoManuel/Documents/DSA_learning/src/sorting_algorithms.cpp
+CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o: CMakeFiles/DSA_learning.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o -MF CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o.d -o CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o -c /Users/JoaoManuel/Documents/DSA_learning/src/sorting_algorithms.cpp
+
+CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/JoaoManuel/Documents/DSA_learning/src/sorting_algorithms.cpp > CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.i
+
+CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/JoaoManuel/Documents/DSA_learning/src/sorting_algorithms.cpp -o CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.s
 
 # Object files for target DSA_learning
 DSA_learning_OBJECTS = \
 "CMakeFiles/DSA_learning.dir/src/main.cpp.o" \
-"CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o" \
-"CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o"
+"CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o" \
+"CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o" \
+"CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o" \
+"CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o" \
+"CMakeFiles/DSA_learning.dir/src/queue.cpp.o" \
+"CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o"
 
 # External object files for target DSA_learning
 DSA_learning_EXTERNAL_OBJECTS =
 
 DSA_learning: CMakeFiles/DSA_learning.dir/src/main.cpp.o
-DSA_learning: CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o
-DSA_learning: CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/queue.cpp.o
+DSA_learning: CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o
 DSA_learning: CMakeFiles/DSA_learning.dir/build.make
 DSA_learning: CMakeFiles/DSA_learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DSA_learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DSA_learning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DSA_learning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

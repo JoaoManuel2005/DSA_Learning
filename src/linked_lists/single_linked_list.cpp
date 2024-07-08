@@ -1,6 +1,8 @@
-#include "single_linked_list.h"
-#include "single_linked_node.h"
+#include "linked_lists/single_linked_list.h"
+#include "linked_lists/single_linked_node.h"
 #include <iostream>
+
+singly_linked_list::singly_linked_list() : header(nullptr), tail(nullptr) {}
 
 void singly_linked_list::initialize() {
     std::vector<node> list;
@@ -74,4 +76,8 @@ void singly_linked_list::print_list() {
         std::cout << current->getValue() << std::endl;
         current = current->getNext();
     }
+}
+
+int singly_linked_list::get_header() {
+    return header->getValue();
 }

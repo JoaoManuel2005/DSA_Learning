@@ -8,9 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_list.cpp" "CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_list.cpp.o.d"
+  "/Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/double_linked_node.cpp" "CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/linked_lists/double_linked_node.cpp.o.d"
+  "/Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_list.cpp" "CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_list.cpp.o.d"
+  "/Users/JoaoManuel/Documents/DSA_learning/src/linked_lists/single_linked_node.cpp" "CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/linked_lists/single_linked_node.cpp.o.d"
   "/Users/JoaoManuel/Documents/DSA_learning/src/main.cpp" "CMakeFiles/DSA_learning.dir/src/main.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/main.cpp.o.d"
-  "/Users/JoaoManuel/Documents/DSA_learning/src/single_linked_list.cpp" "CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/single_linked_list.cpp.o.d"
-  "/Users/JoaoManuel/Documents/DSA_learning/src/single_linked_node.cpp" "CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/single_linked_node.cpp.o.d"
+  "/Users/JoaoManuel/Documents/DSA_learning/src/queue.cpp" "CMakeFiles/DSA_learning.dir/src/queue.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/queue.cpp.o.d"
+  "/Users/JoaoManuel/Documents/DSA_learning/src/sorting_algorithms.cpp" "CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o" "gcc" "CMakeFiles/DSA_learning.dir/src/sorting_algorithms.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

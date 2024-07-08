@@ -1,7 +1,7 @@
 #ifndef DOUBLE_LINKED_NODE_H
 #define DOUBLE_LINKED_NODE_H
 
-#include <single_linked_node.h>
+#include <linked_lists/single_linked_node.h>
 
 class doubly_linked_node : public node {
     public:
@@ -9,8 +9,8 @@ class doubly_linked_node : public node {
         doubly_linked_node* getPrev() const;
         doubly_linked_node* getNext() const override;
         void setPrev(doubly_linked_node* prev);
-        void setNext(node* next) override;
         void setNext(doubly_linked_node* next);
+        void setNext(node* next) override;
     private:
         doubly_linked_node* prev_pointer;
 

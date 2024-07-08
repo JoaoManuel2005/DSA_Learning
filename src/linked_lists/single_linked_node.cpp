@@ -1,4 +1,4 @@
-#include "single_linked_node.h"
+#include "linked_lists/single_linked_node.h"
 #include <stdexcept>
 
 node::node(int value, node* next_pointer) {

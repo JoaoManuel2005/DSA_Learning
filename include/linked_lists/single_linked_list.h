@@ -6,12 +6,14 @@
 
 class singly_linked_list {
     public:
+        singly_linked_list();
         void initialize();
         void push(int value);
         void head_push(int value);
         void remove(int value);
         void insert(int value, int position);
         void print_list();
+        int get_header();
     private:
         node* header;
         node* tail;

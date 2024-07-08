@@ -81,12 +81,12 @@ clean: CMakeFiles/DSA_learning.dir/clean
 CMakeFiles/DSA_learning.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA_learning.dir/build.make CMakeFiles/DSA_learning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=1,2,3,4 "Built target DSA_learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target DSA_learning"
 .PHONY : CMakeFiles/DSA_learning.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DSA_learning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DSA_learning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/JoaoManuel/Documents/DSA_learning/build/CMakeFiles 0
 .PHONY : CMakeFiles/DSA_learning.dir/rule
