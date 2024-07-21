@@ -1,5 +1,6 @@
 #include "btree.h"
 #include <iostream>
+#include "queue.h"
 
 BinaryTree::BinaryTree() : root(nullptr) {}
 
@@ -64,15 +65,15 @@ void BinaryTree::inorderTraversal(btree_node* node) const {
 void BinaryTree::preorderTraversal(btree_node* node) const {
     if (node) {
         std::cout << node->getValue() << " ";
-        inorderTraversal(node->getLeft());
-        inorderTraversal(node->getRight());
+        preorderTraversal(node->getLeft());
+        preorderTraversal(node->getRight());
     }
 }
 
 void BinaryTree::postorderTraversal(btree_node* node) const {
     if (node) {
-        inorderTraversal(node->getLeft());
-        inorderTraversal(node->getRight());
+        postorderTraversal(node->getLeft());
+        postorderTraversal(node->getRight());
         std::cout << node->getValue() << " ";
     }
 }
@@ -120,4 +121,30 @@ btree_node*& BinaryTree::remove(btree_node*& node, int value) {
     return node;
 }
 
+void BinaryTree::bfs() {
+    bfs(&root);
+}
 
+void BinaryTree::bfs(btree_node** node){
+    Queue<btree_node**> queue;
+    btree_node** current;
+    if (*node != nullptr) {
+        queue.enqueue(node);
+    }
+    int level = 0;
+    while (!queue.is_empty()) {
+        int level_size = queue.get_length();
+        std::cout << "level: " << level << std::endl;
+        for (int i=0; i < level_size; i++) {
+            current = queue.dequeue();
+            std::cout << (*current)->getValue() << std::endl;
+            if ((*current)->getLeft() != nullptr) {
+                queue.enqueue((&(*current)->getLeft()));
+            }
+            if ((*current)->getRight() != nullptr) {
+                queue.enqueue(&((*current)->getRight()));
+            }
+        }
+        level += 1;
+    }
+}

@@ -1,5 +1,4 @@
 #include <linked_lists/single_linked_list.h>
-#include <linked_lists/double_linked_list.h>
 #include <sorting_algorithms.h>
 #include <search_algorithms.h>
 #include <queue.h>
@@ -19,7 +18,9 @@ int main() {
 
     tree.inorderTraversal();    
 
-    tree.remove(10);
+  //  tree.remove(10);
 
     tree.inorderTraversal();
+
+    tree.bfs();
 }
