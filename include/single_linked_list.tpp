@@ -1,9 +1,11 @@
-#include "linked_lists/single_linked_list.h"
-#include "linked_lists/single_linked_node.h"
+#include "linked_lists/single_linked_list.hpp"
+#include "linked_lists/single_linked_node.hpp"
 #include <iostream>
 
 template <typename T>
-singly_linked_list<T>::singly_linked_list() : header(nullptr), tail(nullptr), length(0) {}
+singly_linked_list<T>::singly_linked_list() : header(nullptr), tail(nullptr), length(0) {
+    std::cout << "SingleLinkedList initialized" << std::endl;
+}
 
 template <typename T>
 void singly_linked_list<T>::initialize() {
@@ -36,9 +38,17 @@ void singly_linked_list<T>::head_push(T value) {
 
 template <typename T>
 void singly_linked_list<T>::remove(T value) {
+    if (header == nullptr) {
+        return;
+    }
     node<T>* current = this->header;
     if (header->getValue() == value) {
         header = header->getNext();
+        if (header == nullptr) {
+            tail = nullptr;
+        }
+        length--;
+        return;
     }
     bool found = false;
     while (!found && current != nullptr) {
@@ -78,6 +88,7 @@ void singly_linked_list<T>::insert(T value, int position) {
         current->setNext(temp);
     }
     length++;
+    std::cout << "Appended item: " << value << ", new length: " << length << std::endl;
 }
 
 template <typename T>

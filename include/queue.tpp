@@ -2,14 +2,17 @@
 #define QUEUE_TPP
 
 #include <iostream>
-#include "queue.h"
+#include "queue.hpp"
 
 template <typename T>
-Queue<T>::Queue() : q() {}
+Queue<T>::Queue() : q() {
+    std::cout << "Queue initialized" << std::endl;
+}
 
 template <typename T>
 void Queue<T>::enqueue(T value) {
     q.push(value);
+    std::cout << "Enqueued item: " << value << std::endl;
 }
 
 template <typename T>
@@ -17,6 +20,7 @@ T Queue<T>::dequeue() {
     T result = q.get_header();
     q.remove(result);
     //std::cout << result << std::endl;
+    std::cout << "Dequeued item: " << result << std::endl;
     return result;
 }
 

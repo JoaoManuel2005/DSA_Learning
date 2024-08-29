@@ -1,4 +1,4 @@
-#include "linked_lists/single_linked_node.h"
+#include "linked_lists/single_linked_node.hpp"
 #include <stdexcept>
 
 template <typename T>

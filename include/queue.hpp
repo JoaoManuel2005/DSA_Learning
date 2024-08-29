@@ -1,7 +1,7 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
-#include "linked_lists/single_linked_list.h"
+#include "linked_lists/single_linked_list.hpp"
 
 template <typename T>
 class Queue {

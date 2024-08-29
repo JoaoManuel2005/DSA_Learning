@@ -1,8 +1,8 @@
 #ifndef DOUBLE_LINKED_LIST_H
 #define DOUBLE_LINKED_LIST_H
 
-#include <linked_lists/single_linked_list.h>
-#include <linked_lists/double_linked_node.h>
+#include <linked_lists/single_linked_list.hpp>
+#include <linked_lists/double_linked_node.hpp>
 
 class doubly_linked_list : public singly_linked_list {
     public:

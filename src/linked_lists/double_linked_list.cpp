@@ -1,5 +1,5 @@
-#include "linked_lists/double_linked_list.h"
-#include "linked_lists/double_linked_node.h"
+#include "linked_lists/double_linked_list.hpp"
+#include "linked_lists/double_linked_node.hpp"
 #include <iostream>
 
 doubly_linked_list::doubly_linked_list() : singly_linked_list(), tail(nullptr) {}

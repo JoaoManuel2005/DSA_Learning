@@ -2,7 +2,7 @@
 #define SINGLE_LINKED_H
 
 #include <vector>
-#include "single_linked_node.h"
+#include "single_linked_node.hpp"
 
 template <typename T>
 class singly_linked_list {

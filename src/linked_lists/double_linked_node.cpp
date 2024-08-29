@@ -1,4 +1,4 @@
-#include "linked_lists/double_linked_node.h"
+#include "linked_lists/double_linked_node.hpp"
 #include <stdexcept>
 
 doubly_linked_node::doubly_linked_node(int value, doubly_linked_node* prev_pointer, doubly_linked_node* next_pointer)
