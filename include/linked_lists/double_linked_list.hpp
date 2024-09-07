@@ -1,21 +1,28 @@
 #ifndef DOUBLE_LINKED_LIST_H
 #define DOUBLE_LINKED_LIST_H
 
-#include <linked_lists/single_linked_list.hpp>
-#include <linked_lists/double_linked_node.hpp>
+#include "double_linked_node.hpp"
 
-class doubly_linked_list : public singly_linked_list {
+template <typename T>
+class doubly_linked_list {
     public:
         doubly_linked_list();
-        void initialize();
-        void push(int value);
-        void head_push(int value);
-        void remove(int value);
-        void insert(int value, int position);
+        void push(T value);
+        void head_push(T value);
+        void remove(T value);
+        void insert(T value, int position);
         void print_list();
+        doubly_linked_node<T>* get_header_node();
+        T get_header_value();
+        int get_length();
+        bool is_empty();
     private:
-        doubly_linked_node* header;
-        doubly_linked_node* tail;
+        doubly_linked_node<T>* header;
+        doubly_linked_node<T>* tail;
+        std::vector<doubly_linked_node<T>> list;
+        int length;
 };
+
+#include "double_linked_list.tpp"
 
 #endif // DOUBLE_LINKED_LIST_H

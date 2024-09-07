@@ -38,6 +38,8 @@ class BinaryTree<mapping<T, U>> : public BinaryTreeBase<mapping<T,U>> {
         bool search(btree_node<mapping<T, U>>* node, T key);
 };
 
+extern template class BinaryTree<mapping<char, int>>;
+
 #include "btree.tpp"
 
 #endif // BINARY_TREE_H

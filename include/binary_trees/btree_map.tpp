@@ -1,7 +1,7 @@
 #include "btree_map.hpp"
 
 template <typename T, typename U>
-btree_map<T, U>::btree_map() : map() {}
+btree_map<T, U>::btree_map() {}
 
 template <typename T, typename U>
 void btree_map<T,U>::insert(mapping<T, U> pair) {

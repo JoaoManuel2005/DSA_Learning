@@ -1,5 +1,9 @@
 #include "btree_base.hpp"
 
+/**
+ * Constructor for binary trees
+ * Sets tree root, which is a pointer to a binary tree node, to a null pointer
+*/
 template <typename T>
 BinaryTreeBase<T>::BinaryTreeBase() : root(nullptr) {}
 

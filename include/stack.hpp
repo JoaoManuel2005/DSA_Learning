@@ -3,14 +3,19 @@
 
 #include <vector>
 
+template<typename T>
 class Stack {
     public:
+        Stack();
+        ~Stack();
         void initialize();
-        void push(int x);
-        int pop();
-        int seek();
+        void push(T x);
+        T pop();
+        T seek();
     private:
-        std::vector<int> stack;
+        std::vector<T> stack;
 };
+
+#include "stack.tpp"
 
 #endif // STACK_H

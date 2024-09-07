@@ -8,13 +8,13 @@ template <typename T>
 class singly_linked_list {
     public:
         singly_linked_list();
-        void initialize();
         void push(T value);
         void head_push(T value);
         void remove(T value);
         void insert(T value, int position);
         void print_list();
-        T get_header();
+        node<T>* get_header_node();
+        T get_header_value();
         int get_length() const;
         bool is_empty() const;
     private:
@@ -27,3 +27,4 @@ class singly_linked_list {
 #include "single_linked_list.tpp"
 
 #endif // SINGLE_LINKED_H
+

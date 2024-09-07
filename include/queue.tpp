@@ -9,18 +9,27 @@ Queue<T>::Queue() : q() {
     std::cout << "Queue initialized" << std::endl;
 }
 
+/**
+ * Pushes new value to the underlying linked list that forms the queue
+ * @param value - value stored in node that we want to add to linked list
+*/
 template <typename T>
 void Queue<T>::enqueue(T value) {
     q.push(value);
-    std::cout << "Enqueued item: " << value << std::endl;
+    //std::cout << "Enqueued item: " << value << std::endl;
 }
 
+/**
+ * Removes header node from underlying linked list that forms the queue
+ * First it gets the header value than uses that as the value to search for to remove in linked lists remove function
+ * @return value stored in lists header node that was removed
+*/
 template <typename T>
 T Queue<T>::dequeue() {
-    T result = q.get_header();
+    T result = q.get_header_value();
     q.remove(result);
     //std::cout << result << std::endl;
-    std::cout << "Dequeued item: " << result << std::endl;
+    //std::cout << "Dequeued item: " << result << std::endl;
     return result;
 }
 

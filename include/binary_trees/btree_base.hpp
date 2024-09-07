@@ -5,6 +5,10 @@
 #include <iostream>
 #include "queue.hpp"
 
+/**
+ * Base class for binary trees
+ * Used for binary search trees, binary tree maps and binary tree sets
+*/
 template <typename T>
 class BinaryTreeBase {
 
