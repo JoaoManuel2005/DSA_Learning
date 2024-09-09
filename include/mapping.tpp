@@ -29,3 +29,11 @@ template <typename T, typename U>
 T mapping<T, U>::getKey() {
     return key;
 }
+
+/**
+ * Defines equality operator for instances of mapping
+*/
+template <typename T, typename U>
+bool mapping<T, U>::operator==(const mapping<T, U>& other) const {
+    return this->key == other.key && this->value == other.value;
+}

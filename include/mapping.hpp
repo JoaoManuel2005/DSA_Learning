@@ -8,6 +8,7 @@ class mapping {
         void setValue(U value);
         U getValue();
         T getKey();
+        bool operator==(const mapping<T, U>& other) const;
     private:
         T key;
         U value;

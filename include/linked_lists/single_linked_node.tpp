@@ -1,4 +1,4 @@
-#include "linked_lists/single_linked_node.hpp"
+#include "single_linked_node.hpp"
 #include <stdexcept>
 
 /**
@@ -7,9 +7,9 @@
  * @param next_pointer - pointer to memory address of next node in linked list
 */
 template <typename T>
-node<T>::node(T value, node<T>* next_pointer) {
-    this->value = value;
-    this->next_pointer = next_pointer;
+node<T>::node(T value, node<T>* next_pointer) : value(value), next_pointer(next_pointer) {
+    // this->value = value;
+    // this->next_pointer = next_pointer;
 }
 
 /**
