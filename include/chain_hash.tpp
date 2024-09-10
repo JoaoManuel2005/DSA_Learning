@@ -124,6 +124,16 @@ void chainHash<T,U>::print() {
     }
 }
 
+template <typename T, typename U>
+singly_linked_list<mapping<T, U>>* chainHash<T,U>::getArrayPointer() {
+    return array;
+}
+
+template <typename T, typename U>
+int chainHash<T,U>::getCapacity() {
+    return capacity;
+}
+
 int hash_char(char key, int capacity) {
     int index = static_cast<int>(key);
     return index % capacity;
