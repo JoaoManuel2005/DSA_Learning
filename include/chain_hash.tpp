@@ -4,6 +4,9 @@
 #include <functional>
 #include <type_traits>
 
+/**
+ * Helper function to determine if number is prime
+*/
 bool is_prime(int n) {
     for (int i = 0; i*i <= n; i++) {
         if (n % i == 0) {
@@ -13,6 +16,10 @@ bool is_prime(int n) {
     return true;
 }
 
+/**
+ * Helper function
+ * @return next number greater than 2*n which is prime
+*/
 int next_double_prime(int n) {
     int candidate = n * 2;
     bool found = false;
@@ -27,9 +34,17 @@ int next_double_prime(int n) {
     return candidate;
 }
 
+/**
+ * Constructor for hashmap
+*/
 template <typename T, typename U>
 chainHash<T,U>::chainHash() {}
 
+/**
+ * Hash function
+ * @param key key of mapping we want to add to the hashmap
+ * @return integer hashing of the key of mapping we want to add
+*/
 template <typename T, typename U>
 int chainHash<T,U>::hash(T key) {
     if constexpr (std::is_same<T, char>::value) {
@@ -46,6 +61,11 @@ int chainHash<T,U>::hash(T key) {
     } 
 }
 
+/**
+ * Rehashing function
+ * @brief Takes old hashmap. Increases its size to next prime double the size of its current size
+ * Then recalculates the hashing of the mappings already in the hashmap according to the new size
+*/
 template <typename T, typename U>
 void chainHash<T,U>::rehash() {
     int old_capacity = capacity;
@@ -62,6 +82,13 @@ void chainHash<T,U>::rehash() {
     }
 }
 
+/**
+ * Getter for values of mappings in hashmap
+ * @param key of mapping whose value we want to get
+ * @brief Access linked list of mappings which corresponds to hash of key parameter
+ * Iterates through this linked list until we find the key. then returns its value
+ * @return value of mapping corresponding to key parameter passed
+*/
 template <typename T, typename U>
 U chainHash<T,U>::getValue(T key) {
     int index = hash(key);
@@ -77,6 +104,12 @@ U chainHash<T,U>::getValue(T key) {
     throw std::runtime_error("Key not found");
 }
 
+/**
+ * Adds mappings to hashmap
+ * @param mapping we want to add to the hashmap
+ * @brief calculates hash corresponding to mappings key
+ * pushes mapping to the underlying linked list corresponding to the hash
+*/
 template <typename T, typename U>
 void chainHash<T,U>::put(mapping<T, U> mapping) {
     T key = mapping.getKey();
@@ -86,6 +119,13 @@ void chainHash<T,U>::put(mapping<T, U> mapping) {
 
 }
 
+/**
+ * Removes mappings from hashmap
+ * @param key of mapping we want to remove
+ * @brief calculates hash corresponding to mappings key
+ * removes mapping from the underlying linked list corresponding to the hash
+ * uses linked lists remove function 
+*/
 template <typename T, typename U>
 void chainHash<T,U>::remove(T key) {
     if (!search(key)) {
@@ -96,6 +136,13 @@ void chainHash<T,U>::remove(T key) {
     array[index].remove(mapping<T,U>(key, value));
 }
 
+/**
+ * Searcher for mappings in hashmap
+ * @param key of mapping were searching for
+ * @brief Access linked list of mappings which corresponds to hash of key parameter
+ * Iterates through this linked list until we find the key of the mapping or not
+ * @return true if we found mapping, else false
+*/
 template <typename T, typename U>
 bool chainHash<T,U>::search(T key) {
     int index = hash(key);
@@ -111,6 +158,12 @@ bool chainHash<T,U>::search(T key) {
     return false;
 }
 
+/**
+ * Prints key and value pair of every mapping in hashmap
+ * @brief Iterates through underlying array 
+ * for each iteration iterates through linked list at each arrray index 
+ * printing key and values of mappings in linked list
+*/
 template <typename T, typename U>
 void chainHash<T,U>::print() {
     for (int i = 0; i < capacity; i++) {
@@ -124,21 +177,37 @@ void chainHash<T,U>::print() {
     }
 }
 
+/**
+ * Getter for underlying array
+*/
 template <typename T, typename U>
 singly_linked_list<mapping<T, U>>* chainHash<T,U>::getArrayPointer() {
     return array;
 }
 
+/**
+ * Getter for hashmap capacity
+*/
 template <typename T, typename U>
 int chainHash<T,U>::getCapacity() {
     return capacity;
 }
 
+/**
+ * Hash function for char data type
+ * @param key key of mapping we want to add to the hashmap
+ * @return integer hashing of the key of mapping we want to add
+*/
 int hash_char(char key, int capacity) {
     int index = static_cast<int>(key);
     return index % capacity;
 }
-
+/**
+ * Hash function for string data type
+ * @brief hashes each char in string and adds them up
+ * @param key key of mapping we want to add to the hashmap
+ * @return integer hashing of the key of mapping we want to add
+*/
 int hash_str(std::string key, int capacity) {
     int index = 0;
     for (char ch : key) {
@@ -147,6 +216,11 @@ int hash_str(std::string key, int capacity) {
     return index % capacity;
 }
 
+/**
+ * Hash function for int data type
+ * @param key key of mapping we want to add to the hashmap
+ * @return integer hashing of the key of mapping we want to add
+*/
 int hash_int(int key, int capacity) {
     return key % capacity;
 }
