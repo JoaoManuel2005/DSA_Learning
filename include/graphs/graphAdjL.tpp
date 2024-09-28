@@ -1,27 +1,35 @@
 #include "graphAdjL.hpp"
 #include <iostream>
 
+/**
+ * Constructor for graph
+ * If we don't specify if graph is directed, it means it's not
+*/
 template <typename T>
 GraphAdj<T>::GraphAdj() : m_directed(false), m_V(0) {}
 
+/**
+ * Constructor for graph with boolean option for wheter graph is directed or not
+*/
 template <typename T>
 GraphAdj<T>::GraphAdj(bool directed) : m_directed(directed), m_V(0) {}
 
+
 template <typename T>
 void GraphAdj<T>::addNode(T value) {
-    if (!adjList.search(value)) {
+    if (!m_adjList.search(value)) {
         singly_linked_list<edge<T>> list;
-        adjList.put(mapping<T,singly_linked_list<edge<T>>>(value, list));
+        m_adjList.put(mapping<T,singly_linked_list<edge<T>>>(value, list));
         m_V++;
     }
 }
 
 template <typename T>
 void GraphAdj<T>::add_edge(T U, T V) {
-    if (!adjList.search(U)) {
+    if (!m_adjList.search(U)) {
         addNode(U);
     }
-    if (!adjList.search(V)) {
+    if (!m_adjList.search(V)) {
         addNode(V);
     }
 

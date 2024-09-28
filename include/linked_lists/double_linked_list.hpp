@@ -29,7 +29,7 @@ class doubly_linked_list {
             public:
                 using value_type = T;
                 using difference_type = std::ptrdiff_t;
-                using pointer = T*;
+                using pointer = doubly_linked_node<T>*;
                 using reference = T&;
                 using iterator_category = std::bidirectional_iterator_tag;
 
@@ -39,7 +39,8 @@ class doubly_linked_list {
                 T operator*() const {return current->getValue();}
 
                 // Pointer operator to return a pointer to the value of the node
-                pointer operator->() const {return &(current->getValue());}
+                //pointer operator->() const {return &(current->getValue());}
+                pointer operator->() const {return current;}
 
                 //Pre-incrememnt to move to the next node
                 iterator& operator++() {

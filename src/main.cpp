@@ -2,7 +2,8 @@
 #include <linked_lists/single_linked_list.hpp>
 #include <linked_lists/double_linked_list.hpp>
 #include <chain_hash.hpp>
-//#include <graphs/graph.hpp>
+#include <graphs/graphAdjL.hpp>
+#include <deque.hpp>
 
 int main() {
 
@@ -10,47 +11,47 @@ int main() {
 //             TESTING LINKED LISTS
 //
 
-    doubly_linked_list<int> list;
-    list.push(2);
-    list.push(4);
-    list.push(2);
-    list.push(4);
-    list.remove(2);
-    list.insert(9, 2);
-    list.print_list();
-    // Forward iteration
-    std::cout << "Forward iteration: ";
-    for (auto it = list.begin(); it != list.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
-    // Backward iteration (starting from the last element)
-    std::cout << "Backward iteration: ";
-    auto it = list.end();  // `it` is now pointing to the "end" node (nullptr)
-    if (it != list.begin()) {
-        --it;  // Move the iterator back to the last element
-        while (it != list.begin()) {
-            std::cout << *it << " ";
-            --it;
-        }
-        // Print the first element as the loop ends before it
-        std::cout << *it;
-    }
-    std::cout << std::endl;
+    // doubly_linked_list<int> list;
+    // list.push(2);
+    // list.push(4);
+    // list.push(2);
+    // list.push(4);
+    // list.remove(2);
+    // list.insert(9, 2);
+    // list.print_list();
+    // // Forward iteration
+    // std::cout << "Forward iteration: ";
+    // for (auto it = list.begin(); it != list.end(); ++it) {
+    //     std::cout << *it << " ";
+    // }
+    // std::cout << std::endl;
+    // // Backward iteration (starting from the last element)
+    // std::cout << "Backward iteration: ";
+    // auto it = list.end();  // `it` is now pointing to the "end" node (nullptr)
+    // if (it != list.begin()) {
+    //     --it;  // Move the iterator back to the last element
+    //     while (it != list.begin()) {
+    //         std::cout << *it << " ";
+    //         --it;
+    //     }
+    //     // Print the first element as the loop ends before it
+    //     std::cout << *it;
+    // }
+    // std::cout << std::endl;
 
-    std::cout << "Now single linked list:" << std::endl;
-    singly_linked_list<int> s_list;
-    s_list.push(2);
-    s_list.push(4);
-    s_list.push(2);
-    s_list.push(4);
-    s_list.remove(2);
-    s_list.insert(9, 2);
-    s_list.print_list();
-    for (auto it = s_list.begin(); it != s_list.end(); ++it) {
-        std::cout << *it << " ";  // Dereferencing the iterator to get the value
-    }
-    std::cout << std::endl;
+    // std::cout << "Now single linked list:" << std::endl;
+    // singly_linked_list<int> s_list;
+    // s_list.push(2);
+    // s_list.push(4);
+    // s_list.push(2);
+    // s_list.push(4);
+    // s_list.remove(2);
+    // s_list.insert(9, 2);
+    // s_list.print_list();
+    // for (auto it = s_list.begin(); it != s_list.end(); ++it) {
+    //     std::cout << *it << " ";  // Dereferencing the iterator to get the value
+    // }
+    // std::cout << std::endl;
 
 // 
 //             TESTING BINARY TREES
@@ -118,7 +119,7 @@ int main() {
 //             TESTING GRAPHS
 //
 
-    // Graph<int> graph;
+    // GraphAdj<int> graph;
     // graph.addNode(1);
     // graph.addNode(3);
     // graph.addNode(2);
@@ -127,4 +128,22 @@ int main() {
     // graph.add_edge(3,2);
     // graph.printGraph();
 
+//
+//             TESTING DEQUE
+//
+
+Deque<int> deque;
+deque.push_back(12);
+deque.push_front(2);
+deque.push_front(4);
+deque.push_back(3);
+std::cout << deque.pop_back() << std::endl;
+deque.push_front(2);
+std::cout << deque.pop_back() << std::endl;
+std::cout << deque.pop_front() << std::endl;
+std::cout << deque.pop_back() << std::endl;
+std::cout << deque.pop_back() << std::endl;
+
 }
+
+
